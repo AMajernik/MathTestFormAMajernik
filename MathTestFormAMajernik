@@ -1,0 +1,72 @@
+<form>
+    <p>Please type your first and last name:</p>
+        <input type="text" placeholder="First and last name">
+    <br />
+    <fieldset>
+        <legend>Test</legend>     <!--Test start-->
+        <p>Section 1: Chose the symbol that makes the statement correct.</p>
+        <p>1.a) 3 is _ than 7</p>
+            <input type="radio" value="ques1" name="ques1">&lt;
+        <br />
+            <input type="radio" value="ques1" name="ques1">&gt;
+        <br />
+            <input type="radio" value="ques1" name="ques1">=
+        <br />
+        <p>1.b) 6 is _ than 6</p>
+            <input type="radio" value="ques2" name="ques2">&lt;
+        <br />
+            <input type="radio" value="ques2" name="ques2">&gt;
+        <br />
+            <input type="radio" value="ques2" name="ques2">=
+        <br>
+        <p>1.c) 9 is _ than 1</p>
+            <input type="radio" value="ques3" name="ques3">&lt;
+        <br />
+            <input type="radio" value="ques3" name="ques3">&gt;
+        <br />
+            <input type="radio" value="ques3" name="ques3">=
+        <br />
+
+        <p>Section 2: Answer the word problem by filling in the text box.</p>
+
+        <p>2.a) Jenny has 4 cans of broth. The soup recipe she wants to make requires 7 cans of broth. How many more cans of broth does Jenny need? Please label your answer.</p>
+        <textarea placeholder="Type answer here"></textarea>
+        <br />
+        <p>2.b) Henry has 3 tubes of toothpaste. He wants to give some of them to his friends until he only has one tube left. 
+        How many tubes of toothpaste does Henry need to give away? Please label your answer.</p>
+        <textarea placeholder="Type answer here"></textarea>
+        <br />
+
+        <p>Section 3: solve the equation</p>
+  
+        <p>3.a) What is 3 &times; 5?</p>
+            <input type="radio" value="ques6" name="ques6">9
+        <br />
+             <input type="radio" value="ques6" name="ques6">21
+        <br />
+            <input type="radio" value="ques6" name="ques6">15
+        <br />
+            <input type="radio" value="ques6" name="ques6">12
+        <br />
+        <p>3.b) What is 32 &divide; 8?</p>
+            <input type="radio" value="ques7" name="ques7">4
+        <br />
+            <input type="radio" value="ques7" name="ques7">16
+        <br />
+            <input type="radio" value="ques7" name="ques7">8
+        <br />
+            <input type="radio" value="ques7" name="ques7">2
+        <br />
+        <p>3.c) What is 5 &times; 4?</p>
+            <input type="radio" value="ques8" name="ques8">40
+        <br />
+            <input type="radio" value="ques8" name="ques8">10
+        <br />
+            <input type="radio" value="ques8" name="ques8">25
+        <br />
+            <input type="radio" value="ques8" name="ques8">20
+        <br /> <!--End Test-->
+        <p>Thank you for your time, please submit your answers using the button below.</p>
+            <input type="submit" value="Submit">
+    </fieldset>
+</form>
